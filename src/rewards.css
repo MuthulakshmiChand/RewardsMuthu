@@ -1,0 +1,114 @@
+
+.floatLeft { width: 50%; float: left; margin-right: 5%;
+    height: auto;}
+    .floatLeft1 { width: 35%; float: left; margin-right: 5%; }
+    .floatRight {width: 50%; float: left; }
+    
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+    }
+    th{
+      background-color: skyblue;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 0 8px; 
+      font-size: 10px;
+    } 
+    
+    .table-header {
+      padding-left: 5px;  
+      margin-bottom: 5px;
+      text-align: left;
+     
+    }
+    
+    tr:nth-child(even) {
+      background-color: lightgray;
+      color: black;
+    
+      }
+    tr {
+      height: 25px;
+    }
+    .highlight {
+      background-color: rgb(15, 93, 135);
+      color: white;
+
+    }
+    tr:nth-child(even).highlight {
+      background-color: rgb(15, 93, 135);
+      color: white;
+
+    }
+    .parentDiv {
+    
+      display: inline-block;
+      margin: 0 20px 10px 20px;
+      /* padding: 20px; */
+      
+      width: 45%;
+      float: left;
+     
+     
+    }
+    .transactions {
+      max-height: 500px;
+      overflow-y: scroll;
+      width: 50%;
+    }
+    .tranTable {
+        max-height: 500px;
+      overflow-y: scroll;
+      
+    }
+    .overAll {
+      height: 500px;
+      overflow-y: scroll;
+      display: inline-block;
+      margin: 0 20px 20px 20px;
+      width: 100%; 
+      margin-right: 20px;
+      
+    }
+    
+    h1 {
+      color: pink;
+      margin-left: 10px;
+      text-align: left;
+    }
+
+    .right {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .formSection label,  .formSection input,    .formSection button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        padding-left: 20px;;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    .formSection {
+      text-align: right;
+    margin-right: 13%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-left: 34px;
+
+    }
+  .rightAlign { 
+    text-align: right;
+  }
+  tr:hover {
+    border : 2px solid purple;
+ }
+
+ .lastthree {
+  text-align: center;
+  color: rgb(189, 35, 138)
+ }

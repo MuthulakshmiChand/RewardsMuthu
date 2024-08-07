@@ -1,0 +1,23 @@
+.header {
+    background-color:white;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px gray;
+    margin-bottom: 10px;
+   height: 60px;
+   -webkit-box-shadow: 0 2px 5px #888888;
+  -moz-box-shadow: 0 2px 5px #888888;
+  box-shadow: 0 2px 5px #888888;
+  }
+
+  .servClass {
+    background: black;
+color: white;
+text-align: left;
+padding: 9px 0 9px 30px;
+font-size: 14px;
+font-family: ui-sans-serif;
+}
